@@ -11,36 +11,36 @@ Once installed...
 
 ## Create an LED instance:
 ```
-from led import LED
+ from led import LED
 
-my_led = LED()
+ my_led = LED()
 ```
 
 ## Turn the LED on:
 ```
-    # make it red
-    my_led.on('red')
+ # make it red
+ my_led.on('red')
 
-    # make it blue
-    my_led.on('blue')
+ # make it blue
+ my_led.on('blue')
 
-    # make it green
-    my_led.on('green')
+ # make it green
+ my_led.on('green')
 ```
 
 ## Blink the LED:
 ```
-    # blink red 3 times
-    my_led.blink('red', 3)
+ # blink red 3 times
+ my_led.blink('red', 3)
 
-    # blink blue 5 times
-    my_led.blink('blue', 5)
+ # blink blue 5 times
+ my_led.blink('blue', 5)
 
-    # blink green 10 times
-    my_led.blink('green', 10)
+ # blink green 10 times
+ my_led.blink('green', 10)
 ```
 
 ## Turn the LED off:
 ```
-my_led.off()
+ my_led.off()
 ```
