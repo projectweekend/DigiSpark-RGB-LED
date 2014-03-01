@@ -1,0 +1,2 @@
+pyusb==1.0.0b2
+webcolors==1.4
