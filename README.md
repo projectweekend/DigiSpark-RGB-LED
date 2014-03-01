@@ -5,9 +5,9 @@ A simple class for controlling a [DigiSpark](http://digistump.com/products/1) [R
 
 The `arduino` package in this repo was borrowed from [DigiSpark Example Programs](https://github.com/digistump/DigisparkExamplePrograms/tree/master/Python/DigiBlink/source/arduino). This all came about when I was working on a headless Raspberry Pi based project ([Pi-Nova-5](https://github.com/projectweekend/Pi-Nova-5)) and wanted to use the DigiSpark LED as a status indicator. 
 
-The two external dependencies are included in the `requirements.txt` file. The [webcolors](https://pypi.python.org/pypi/webcolors) package can be installed via `pip`. To install the [pyusb](https://github.com/walac/pyusb) package, follow instructions in that repo.
+The two external Python dependencies are included in the `requirements.txt` file. The [webcolors](https://pypi.python.org/pypi/webcolors) package can be installed via `pip`. To install the [pyusb](https://github.com/walac/pyusb) package, follow instructions in that repo. After that, load the `DigiUSB→DigiBlink` example sketch onto your Digispark using the DigisparkArduino IDE.
 
-Once installed...
+Once everything is installed, simply plug the DigiSpark into a USB port on your computer and...
 
 ## Create an LED instance:
 ```
